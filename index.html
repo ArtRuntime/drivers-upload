@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZeroLag Repository Catalog & Download Hub</title>
+  <meta name="description" content="Statically download QX-Drivers, RT-Drivers, APKs, and shell scripts from the repository. Search, filter, and fetch directly using browser download or curl.">
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Pre-load the dataset containing files array -->
+  <script src="files-data.js"></script>
+  <!-- Main application scripts -->
+  <script src="app.js" defer></script>
+</head>
+<body>
+
+  <div class="container">
+    
+    <!-- Header -->
+    <header>
+      <div class="title-badge">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="animation: pulse 2s infinite;"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+        REPOSITORY HOSTED ON GITHUB PAGES
+      </div>
+      <h1>ZeroLag Driver Hub</h1>
+      <p class="subtitle">Search, filter, and download driver packages, loader binaries, and flashable modules directly to your environment.</p>
+    </header>
+
+    <!-- Statistics Dashboard -->
+    <section class="stats-grid">
+      <div class="stat-card stat-qx">
+        <div class="stat-value" id="qx-count">0</div>
+        <div class="stat-label">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+          QX Drivers
+        </div>
+      </div>
+      <div class="stat-card stat-rt">
+        <div class="stat-value" id="rt-count">0</div>
+        <div class="stat-label">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+          RT Drivers
+        </div>
+      </div>
+      <div class="stat-card stat-auto">
+        <div class="stat-value" id="auto-count">0</div>
+        <div class="stat-label">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+          Auto RT Drivers
+        </div>
+      </div>
+      <div class="stat-card stat-core">
+        <div class="stat-value" id="total-files">0</div>
+        <div class="stat-label">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+          Total Files Listed
+        </div>
+      </div>
+    </section>
+
+    <!-- Pinned Primary Downloads -->
+    <section class="pinned-section">
+      <h3 class="pinned-title">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.44 11.05l-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48"></path></svg>
+        Quick Downloads
+      </h3>
+      <div class="pinned-grid">
+        <!-- Pinned Core Script -->
+        <div class="pinned-card">
+          <div class="pinned-info">
+            <div class="pinned-icon sh">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"></polyline><line x1="12" y1="19" x2="20" y2="19"></line></svg>
+            </div>
+            <div>
+              <div class="pinned-name">zerolag.sh</div>
+              <div class="pinned-size">Main Installer Script</div>
+            </div>
+          </div>
+          <div class="pinned-actions">
+            <a href="zerolag.sh" download="zerolag.sh" class="btn btn-primary btn-icon-only" title="Download zerolag.sh">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Pinned Android App -->
+        <div class="pinned-card">
+          <div class="pinned-info">
+            <div class="pinned-icon apk">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+            </div>
+            <div>
+              <div class="pinned-name">app-release.apk</div>
+              <div class="pinned-size">Android Loader Client</div>
+            </div>
+          </div>
+          <div class="pinned-actions">
+            <a href="app-release.apk" download="app-release.apk" class="btn btn-primary btn-icon-only" title="Download app-release.apk">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Pinned Flashable Module -->
+        <div class="pinned-card">
+          <div class="pinned-info">
+            <div class="pinned-icon zip">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8v13H3V8M1 3h22v5H1zM10 12h4"></path></svg>
+            </div>
+            <div>
+              <div class="pinned-name">module.zip</div>
+              <div class="pinned-size">Magisk / KernelSU Module</div>
+            </div>
+          </div>
+          <div class="pinned-actions">
+            <a href="module.zip" download="module.zip" class="btn btn-primary btn-icon-only" title="Download module.zip">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Controls Panel: Search and Category Filtering Tabs -->
+    <section class="controls-panel">
+      <div class="search-wrapper">
+        <span class="search-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        </span>
+        <input type="text" id="search-input" class="search-input" placeholder="Search by driver kernel version, filename extension (e.g. 5.10, .ko, .sh)...">
+      </div>
+      <div class="filter-tabs" id="filter-tabs">
+        <!-- Tabs injected by JS -->
+      </div>
+    </section>
+
+    <!-- Files Listing Grid -->
+    <main>
+      <div class="catalog-header">
+        <h4 style="font-family: var(--font-heading); font-size: 1.1rem; font-weight: 600;">Repository Index</h4>
+      </div>
+      <div class="files-grid" id="files-grid">
+        <!-- Injected dynamically by app.js -->
+      </div>
+    </main>
+
+    <!-- Git deployment documentation for user -->
+    <section class="info-section">
+      <h3 class="info-title">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+        How to Deploy and Keep Site Updated
+      </h3>
+      <div class="info-content">
+        <p>This static download site is fully optimized to run on **GitHub Pages**. To host it, follow these simple steps:</p>
+        <ol>
+          <li>Ensure this website code (`index.html`, `style.css`, `app.js`, `files-data.js`) is pushed to your main branch on GitHub.</li>
+          <li>Go to your GitHub Repository -> <strong>Settings</strong> -> <strong>Pages</strong>.</li>
+          <li>Under <strong>Build and deployment</strong>, select <strong>Deploy from a branch</strong>. Select the <code>main</code> branch and folder <code>/ (root)</code>, then click <strong>Save</strong>.</li>
+          <li>GitHub will deploy your website to: <code class="code-snippet">https://&lt;your-username&gt;.github.io/&lt;repo-name&gt;/</code></li>
+        </ol>
+        <p style="margin-top: 1rem;"><strong>To update the download list after adding or deleting files:</strong></p>
+        <p>Simply run the Node.js script in your workspace terminal before pushing code:</p>
+        <code class="code-snippet">node update-index.js</code>
+      </div>
+    </section>
+
+    <!-- Toast Notification Popup -->
+    <div id="toast" class="toast">
+      <span class="toast-icon">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+      </span>
+      <span id="toast-text">Action completed successfully!</span>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>ZeroLag Repository Catalog &copy; 2026. Made with styling elegance.</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
