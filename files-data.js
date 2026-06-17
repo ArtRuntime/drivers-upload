@@ -4,8 +4,8 @@ window.REPO_FILES = [
     "name": "app-release.apk",
     "path": "app-release.apk",
     "folder": "Root",
-    "size": 9964572,
-    "lastModified": "2026-06-16T20:28:37.605Z"
+    "size": 4492520,
+    "lastModified": "2026-06-17T10:54:51.289Z"
   },
   {
     "name": "module.zip",
@@ -25,8 +25,8 @@ window.REPO_FILES = [
     "name": "zerolag.sh",
     "path": "zerolag.sh",
     "folder": "Root",
-    "size": 5467272,
-    "lastModified": "2026-06-16T23:26:43.023Z"
+    "size": 8056376,
+    "lastModified": "2026-06-17T10:54:42.764Z"
   },
   {
     "name": "4.14.117.ko",
