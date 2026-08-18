@@ -4,427 +4,427 @@ window.REPO_FILES = [
     "name": "app-release.apk",
     "path": "app-release.apk",
     "folder": "Root",
-    "size": 4492520,
-    "lastModified": "2026-06-17T10:54:51.289Z"
+    "size": 4508736,
+    "lastModified": "2026-06-29T12:02:46.446Z"
   },
   {
     "name": "module.zip",
     "path": "module.zip",
     "folder": "Root",
     "size": 264726,
-    "lastModified": "2026-06-16T20:18:28.812Z"
+    "lastModified": "2026-06-29T12:02:46.546Z"
+  },
+  {
+    "name": "sock64.sh",
+    "path": "sock64.sh",
+    "folder": "Root",
+    "size": 301056,
+    "lastModified": "2026-08-18T11:45:12.169Z"
   },
   {
     "name": "wanbai.kpm",
     "path": "wanbai.kpm",
     "folder": "Root",
     "size": 20264,
-    "lastModified": "2026-06-16T20:18:28.814Z"
-  },
-  {
-    "name": "zerolag.sh",
-    "path": "zerolag.sh",
-    "folder": "Root",
-    "size": 8056376,
-    "lastModified": "2026-06-17T10:54:42.764Z"
+    "lastModified": "2026-06-29T12:02:46.555Z"
   },
   {
     "name": "4.14.117.ko",
     "path": "auto-rt-ko-drivers/4.14.117.ko",
     "folder": "auto-rt-ko-drivers",
     "size": 169704,
-    "lastModified": "2026-06-16T20:18:28.705Z"
+    "lastModified": "2026-06-29T12:02:46.446Z"
   },
   {
     "name": "4.14.180.ko",
     "path": "auto-rt-ko-drivers/4.14.180.ko",
     "folder": "auto-rt-ko-drivers",
     "size": 170984,
-    "lastModified": "2026-06-16T20:18:28.711Z"
+    "lastModified": "2026-06-29T12:02:46.446Z"
   },
   {
     "name": "4.14.186.ko",
     "path": "auto-rt-ko-drivers/4.14.186.ko",
     "folder": "auto-rt-ko-drivers",
     "size": 169392,
-    "lastModified": "2026-06-16T20:18:28.717Z"
+    "lastModified": "2026-06-29T12:02:46.461Z"
   },
   {
     "name": "4.19.113.ko",
     "path": "auto-rt-ko-drivers/4.19.113.ko",
     "folder": "auto-rt-ko-drivers",
     "size": 179520,
-    "lastModified": "2026-06-16T20:18:28.722Z"
+    "lastModified": "2026-06-29T12:02:46.461Z"
   },
   {
     "name": "4.19.157-ColorOS.ko",
     "path": "auto-rt-ko-drivers/4.19.157-ColorOS.ko",
     "folder": "auto-rt-ko-drivers",
     "size": 182912,
-    "lastModified": "2026-06-16T20:18:28.728Z"
+    "lastModified": "2026-06-29T12:02:46.461Z"
   },
   {
     "name": "4.19.157.ko",
     "path": "auto-rt-ko-drivers/4.19.157.ko",
     "folder": "auto-rt-ko-drivers",
     "size": 183408,
-    "lastModified": "2026-06-16T20:18:28.733Z"
+    "lastModified": "2026-06-29T12:02:46.477Z"
   },
   {
     "name": "4.19.191-ColorOS.ko",
     "path": "auto-rt-ko-drivers/4.19.191-ColorOS.ko",
     "folder": "auto-rt-ko-drivers",
     "size": 211784,
-    "lastModified": "2026-06-16T20:18:28.739Z"
+    "lastModified": "2026-06-29T12:02:46.477Z"
   },
   {
     "name": "4.19.81.ko",
     "path": "auto-rt-ko-drivers/4.19.81.ko",
     "folder": "auto-rt-ko-drivers",
     "size": 175328,
-    "lastModified": "2026-06-16T20:18:28.744Z"
+    "lastModified": "2026-06-29T12:02:46.477Z"
   },
   {
     "name": "4.9.186.ko",
     "path": "auto-rt-ko-drivers/4.9.186.ko",
     "folder": "auto-rt-ko-drivers",
     "size": 207576,
-    "lastModified": "2026-06-16T20:18:28.750Z"
+    "lastModified": "2026-06-29T12:02:46.493Z"
   },
   {
     "name": "5.10.ko",
     "path": "auto-rt-ko-drivers/5.10.ko",
     "folder": "auto-rt-ko-drivers",
     "size": 389896,
-    "lastModified": "2026-06-16T20:18:28.758Z"
+    "lastModified": "2026-06-29T12:02:46.493Z"
   },
   {
     "name": "5.15.ko",
     "path": "auto-rt-ko-drivers/5.15.ko",
     "folder": "auto-rt-ko-drivers",
     "size": 397304,
-    "lastModified": "2026-06-16T20:18:28.766Z"
+    "lastModified": "2026-06-29T12:02:46.508Z"
   },
   {
     "name": "5.4-ColorOS.ko",
     "path": "auto-rt-ko-drivers/5.4-ColorOS.ko",
     "folder": "auto-rt-ko-drivers",
     "size": 301216,
-    "lastModified": "2026-06-16T20:18:28.773Z"
+    "lastModified": "2026-06-29T12:02:46.508Z"
   },
   {
     "name": "5.4.236.ko",
     "path": "auto-rt-ko-drivers/5.4.236.ko",
     "folder": "auto-rt-ko-drivers",
     "size": 317304,
-    "lastModified": "2026-06-16T20:18:28.782Z"
+    "lastModified": "2026-06-29T12:02:46.508Z"
   },
   {
     "name": "6.1.ko",
     "path": "auto-rt-ko-drivers/6.1.ko",
     "folder": "auto-rt-ko-drivers",
     "size": 391736,
-    "lastModified": "2026-06-16T20:18:28.791Z"
+    "lastModified": "2026-06-29T12:02:46.524Z"
   },
   {
     "name": "6.6.ko",
     "path": "auto-rt-ko-drivers/6.6.ko",
     "folder": "auto-rt-ko-drivers",
     "size": 327560,
-    "lastModified": "2026-06-16T20:18:28.799Z"
+    "lastModified": "2026-06-29T12:02:46.524Z"
   },
   {
     "name": "note12pro.ko",
     "path": "auto-rt-ko-drivers/note12pro.ko",
     "folder": "auto-rt-ko-drivers",
     "size": 187096,
-    "lastModified": "2026-06-16T20:18:28.805Z"
+    "lastModified": "2026-06-29T12:02:46.540Z"
   },
   {
     "name": "4.14.117.ko.sh",
     "path": "QX-Drivers/4.14.117.ko.sh",
     "folder": "QX-Drivers",
     "size": 32354,
-    "lastModified": "2026-06-16T20:18:28.319Z"
+    "lastModified": "2026-06-29T12:02:46.163Z"
   },
   {
     "name": "4.14.180.ko.sh",
     "path": "QX-Drivers/4.14.180.ko.sh",
     "folder": "QX-Drivers",
     "size": 32042,
-    "lastModified": "2026-06-16T20:18:28.323Z"
+    "lastModified": "2026-06-29T12:02:46.163Z"
   },
   {
     "name": "4.14.186.ko.sh",
     "path": "QX-Drivers/4.14.186.ko.sh",
     "folder": "QX-Drivers",
     "size": 32730,
-    "lastModified": "2026-06-16T20:18:28.326Z"
+    "lastModified": "2026-06-29T12:02:46.163Z"
   },
   {
     "name": "4.14.186b.ko.sh",
     "path": "QX-Drivers/4.14.186b.ko.sh",
     "folder": "QX-Drivers",
     "size": 38306,
-    "lastModified": "2026-06-16T20:18:28.329Z"
+    "lastModified": "2026-06-29T12:02:46.163Z"
   },
   {
     "name": "4.14.186c.ko.sh",
     "path": "QX-Drivers/4.14.186c.ko.sh",
     "folder": "QX-Drivers",
     "size": 38306,
-    "lastModified": "2026-06-16T20:18:28.332Z"
+    "lastModified": "2026-06-29T12:02:46.163Z"
   },
   {
     "name": "4.19.113.ko.sh",
     "path": "QX-Drivers/4.19.113.ko.sh",
     "folder": "QX-Drivers",
     "size": 30810,
-    "lastModified": "2026-06-16T20:18:28.335Z"
+    "lastModified": "2026-06-29T12:02:46.179Z"
   },
   {
     "name": "4.19.113c.ko.sh",
     "path": "QX-Drivers/4.19.113c.ko.sh",
     "folder": "QX-Drivers",
     "size": 30810,
-    "lastModified": "2026-06-16T20:18:28.338Z"
+    "lastModified": "2026-06-29T12:02:46.179Z"
   },
   {
     "name": "4.19.157-ColorOS-A13.ko.sh",
     "path": "QX-Drivers/4.19.157-ColorOS-A13.ko.sh",
     "folder": "QX-Drivers",
     "size": 30810,
-    "lastModified": "2026-06-16T20:18:28.341Z"
+    "lastModified": "2026-06-29T12:02:46.179Z"
   },
   {
     "name": "4.19.157.ko.sh",
     "path": "QX-Drivers/4.19.157.ko.sh",
     "folder": "QX-Drivers",
     "size": 30810,
-    "lastModified": "2026-06-16T20:18:28.345Z"
+    "lastModified": "2026-06-29T12:02:46.179Z"
   },
   {
     "name": "4.19.157b.ko.sh",
     "path": "QX-Drivers/4.19.157b.ko.sh",
     "folder": "QX-Drivers",
     "size": 30810,
-    "lastModified": "2026-06-16T20:18:28.348Z"
+    "lastModified": "2026-06-29T12:02:46.179Z"
   },
   {
     "name": "4.19.191-ColorOS-A13.ko.sh",
     "path": "QX-Drivers/4.19.191-ColorOS-A13.ko.sh",
     "folder": "QX-Drivers",
     "size": 31050,
-    "lastModified": "2026-06-16T20:18:28.351Z"
+    "lastModified": "2026-06-29T12:02:46.179Z"
   },
   {
     "name": "4.19.191-note12pro-A13.ko.sh",
     "path": "QX-Drivers/4.19.191-note12pro-A13.ko.sh",
     "folder": "QX-Drivers",
     "size": 36418,
-    "lastModified": "2026-06-16T20:18:28.354Z"
+    "lastModified": "2026-06-29T12:02:46.195Z"
   },
   {
     "name": "4.19.81.ko.sh",
     "path": "QX-Drivers/4.19.81.ko.sh",
     "folder": "QX-Drivers",
     "size": 30682,
-    "lastModified": "2026-06-16T20:18:28.355Z"
+    "lastModified": "2026-06-29T12:02:46.195Z"
   },
   {
     "name": "4.9.186.ko.sh",
     "path": "QX-Drivers/4.9.186.ko.sh",
     "folder": "QX-Drivers",
     "size": 31778,
-    "lastModified": "2026-06-16T20:18:28.359Z"
+    "lastModified": "2026-06-29T12:02:46.195Z"
   },
   {
     "name": "5.10-Pixel.ko.sh",
     "path": "QX-Drivers/5.10-Pixel.ko.sh",
     "folder": "QX-Drivers",
     "size": 360562,
-    "lastModified": "2026-06-16T20:18:28.368Z"
+    "lastModified": "2026-06-29T12:02:46.210Z"
   },
   {
     "name": "5.10.ko.sh",
     "path": "QX-Drivers/5.10.ko.sh",
     "folder": "QX-Drivers",
     "size": 360450,
-    "lastModified": "2026-06-16T20:18:28.378Z"
+    "lastModified": "2026-06-29T12:02:46.210Z"
   },
   {
     "name": "5.10b.ko.sh",
     "path": "QX-Drivers/5.10b.ko.sh",
     "folder": "QX-Drivers",
     "size": 360458,
-    "lastModified": "2026-06-16T20:18:28.384Z"
+    "lastModified": "2026-06-29T12:02:46.210Z"
   },
   {
     "name": "5.15.ko.sh",
     "path": "QX-Drivers/5.15.ko.sh",
     "folder": "QX-Drivers",
     "size": 365106,
-    "lastModified": "2026-06-16T20:18:28.391Z"
+    "lastModified": "2026-06-29T12:02:46.226Z"
   },
   {
     "name": "5.4.147~256.ko.sh",
     "path": "QX-Drivers/5.4.147~256.ko.sh",
     "folder": "QX-Drivers",
     "size": 41682,
-    "lastModified": "2026-06-16T20:18:28.395Z"
+    "lastModified": "2026-06-29T12:02:46.226Z"
   },
   {
     "name": "5.4.210-ColorOS-A13.ko.sh",
     "path": "QX-Drivers/5.4.210-ColorOS-A13.ko.sh",
     "folder": "QX-Drivers",
     "size": 41682,
-    "lastModified": "2026-06-16T20:18:28.398Z"
+    "lastModified": "2026-06-29T12:02:46.226Z"
   },
   {
     "name": "5.4.233-ColorOS-A14.ko.sh",
     "path": "QX-Drivers/5.4.233-ColorOS-A14.ko.sh",
     "folder": "QX-Drivers",
     "size": 41682,
-    "lastModified": "2026-06-16T20:18:28.401Z"
+    "lastModified": "2026-06-29T12:02:46.226Z"
   },
   {
     "name": "5.4.61~256.ko.sh",
     "path": "QX-Drivers/5.4.61~256.ko.sh",
     "folder": "QX-Drivers",
     "size": 41618,
-    "lastModified": "2026-06-16T20:18:28.404Z"
+    "lastModified": "2026-06-29T12:02:46.242Z"
   },
   {
     "name": "5.4.86~256.ko.sh",
     "path": "QX-Drivers/5.4.86~256.ko.sh",
     "folder": "QX-Drivers",
     "size": 41618,
-    "lastModified": "2026-06-16T20:18:28.407Z"
+    "lastModified": "2026-06-29T12:02:46.242Z"
   },
   {
     "name": "6.1.ko.sh",
     "path": "QX-Drivers/6.1.ko.sh",
     "folder": "QX-Drivers",
     "size": 61827,
-    "lastModified": "2026-06-16T20:18:28.411Z"
+    "lastModified": "2026-06-29T12:02:46.242Z"
   },
   {
     "name": "xiaomi_sm8350-Voyager.ko.sh",
     "path": "QX-Drivers/xiaomi_sm8350-Voyager.ko.sh",
     "folder": "QX-Drivers",
     "size": 34114,
-    "lastModified": "2026-06-16T20:18:28.414Z"
+    "lastModified": "2026-06-29T12:02:46.242Z"
   },
   {
     "name": "4.14.117.sh",
     "path": "RT-Drivers/4.14.117.sh",
     "folder": "RT-Drivers",
     "size": 230432,
-    "lastModified": "2026-06-16T20:18:28.422Z"
+    "lastModified": "2026-06-29T12:02:46.257Z"
   },
   {
     "name": "4.14.180.sh",
     "path": "RT-Drivers/4.14.180.sh",
     "folder": "RT-Drivers",
     "size": 232163,
-    "lastModified": "2026-06-16T20:18:28.428Z"
+    "lastModified": "2026-06-29T12:02:46.257Z"
   },
   {
     "name": "4.14.186.sh",
     "path": "RT-Drivers/4.14.186.sh",
     "folder": "RT-Drivers",
     "size": 230010,
-    "lastModified": "2026-06-16T20:18:28.434Z"
+    "lastModified": "2026-06-29T12:02:46.257Z"
   },
   {
     "name": "4.19.113.sh",
     "path": "RT-Drivers/4.19.113.sh",
     "folder": "RT-Drivers",
     "size": 243692,
-    "lastModified": "2026-06-16T20:18:28.440Z"
+    "lastModified": "2026-06-29T12:02:46.273Z"
   },
   {
     "name": "4.19.157-ColorOS.sh",
     "path": "RT-Drivers/4.19.157-ColorOS.sh",
     "folder": "RT-Drivers",
     "size": 248277,
-    "lastModified": "2026-06-16T20:18:28.445Z"
+    "lastModified": "2026-06-29T12:02:46.273Z"
   },
   {
     "name": "4.19.157.sh",
     "path": "RT-Drivers/4.19.157.sh",
     "folder": "RT-Drivers",
     "size": 248944,
-    "lastModified": "2026-06-16T20:18:28.453Z"
+    "lastModified": "2026-06-29T12:02:46.273Z"
   },
   {
     "name": "4.19.191-ColorOS.sh",
     "path": "RT-Drivers/4.19.191-ColorOS.sh",
     "folder": "RT-Drivers",
     "size": 287284,
-    "lastModified": "2026-06-16T20:18:28.460Z"
+    "lastModified": "2026-06-29T12:02:46.289Z"
   },
   {
     "name": "4.19.81.sh",
     "path": "RT-Drivers/4.19.81.sh",
     "folder": "RT-Drivers",
     "size": 238030,
-    "lastModified": "2026-06-16T20:18:28.466Z"
+    "lastModified": "2026-06-29T12:02:46.289Z"
   },
   {
     "name": "4.9.186.sh",
     "path": "RT-Drivers/4.9.186.sh",
     "folder": "RT-Drivers",
     "size": 281592,
-    "lastModified": "2026-06-16T20:18:28.472Z"
+    "lastModified": "2026-06-29T12:02:46.305Z"
   },
   {
     "name": "5.10.sh",
     "path": "RT-Drivers/5.10.sh",
     "folder": "RT-Drivers",
     "size": 527887,
-    "lastModified": "2026-06-16T20:18:28.483Z"
+    "lastModified": "2026-06-29T12:02:46.305Z"
   },
   {
     "name": "5.15.sh",
     "path": "RT-Drivers/5.15.sh",
     "folder": "RT-Drivers",
     "size": 537893,
-    "lastModified": "2026-06-16T20:18:28.492Z"
+    "lastModified": "2026-06-29T12:02:46.320Z"
   },
   {
     "name": "5.4-ColorOS.sh",
     "path": "RT-Drivers/5.4-ColorOS.sh",
     "folder": "RT-Drivers",
     "size": 408093,
-    "lastModified": "2026-06-16T20:18:28.500Z"
+    "lastModified": "2026-06-29T12:02:46.320Z"
   },
   {
     "name": "5.4.236.sh",
     "path": "RT-Drivers/5.4.236.sh",
     "folder": "RT-Drivers",
     "size": 429825,
-    "lastModified": "2026-06-16T20:18:28.509Z"
+    "lastModified": "2026-06-29T12:02:46.336Z"
   },
   {
     "name": "6.1.sh",
     "path": "RT-Drivers/6.1.sh",
     "folder": "RT-Drivers",
     "size": 530370,
-    "lastModified": "2026-06-16T20:18:28.519Z"
+    "lastModified": "2026-06-29T12:02:46.336Z"
   },
   {
     "name": "6.6.sh",
     "path": "RT-Drivers/6.6.sh",
     "folder": "RT-Drivers",
     "size": 443710,
-    "lastModified": "2026-06-16T20:18:28.528Z"
+    "lastModified": "2026-06-29T12:02:46.352Z"
   },
   {
     "name": "note12pro.sh",
     "path": "RT-Drivers/note12pro.sh",
     "folder": "RT-Drivers",
     "size": 253929,
-    "lastModified": "2026-06-16T20:18:28.534Z"
+    "lastModified": "2026-06-29T12:02:46.352Z"
   }
 ];
