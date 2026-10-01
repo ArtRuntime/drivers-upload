@@ -15,6 +15,8 @@ const ignoreList = new Set([
   'app.js',
   'files-data.js',
   'update-index.js',
+  'upload.bat',
+  'upload.ps1',
   '.gitignore',
   'README.md'
 ]);
