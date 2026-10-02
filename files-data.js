@@ -4,8 +4,8 @@ window.REPO_FILES = [
     "name": "app-release.apk",
     "path": "app-release.apk",
     "folder": "Root",
-    "size": 11529933,
-    "lastModified": "2026-10-02T18:32:35.769Z"
+    "size": 11532517,
+    "lastModified": "2026-10-02T22:54:55.852Z"
   },
   {
     "name": "module.zip",
