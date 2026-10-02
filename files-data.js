@@ -5,7 +5,7 @@ window.REPO_FILES = [
     "path": "app-release.apk",
     "folder": "Root",
     "size": 11529933,
-    "lastModified": "2026-10-02T17:19:39.237Z"
+    "lastModified": "2026-10-02T18:32:35.769Z"
   },
   {
     "name": "module.zip",
@@ -19,7 +19,7 @@ window.REPO_FILES = [
     "path": "sock64",
     "folder": "Root",
     "size": 418712,
-    "lastModified": "2026-10-02T18:19:26.900Z"
+    "lastModified": "2026-10-02T18:30:12.239Z"
   },
   {
     "name": "wanbai.kpm",
