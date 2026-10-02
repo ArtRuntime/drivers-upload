@@ -131,7 +131,7 @@ window.REPO_FILES = [
     "path": "auto-rt-ko-drivers/6.6.ko",
     "folder": "auto-rt-ko-drivers",
     "size": 327560,
-    "lastModified": "2026-10-02T18:18:44.173Z"
+    "lastModified": "2026-10-01T16:39:13.000Z"
   },
   {
     "name": "note12pro.ko",
@@ -468,6 +468,13 @@ window.REPO_FILES = [
     "folder": "ZeroLag-GKI",
     "size": 368392,
     "lastModified": "2026-10-01T19:15:57.351Z"
+  },
+  {
+    "name": "6.6.56.ko",
+    "path": "ZeroLag-GKI/6.6.56.ko",
+    "folder": "ZeroLag-GKI",
+    "size": 337160,
+    "lastModified": "2026-10-02T18:56:54.647Z"
   },
   {
     "name": "6.6.ko",
