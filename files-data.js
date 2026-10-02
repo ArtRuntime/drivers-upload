@@ -18,8 +18,8 @@ window.REPO_FILES = [
     "name": "sock64",
     "path": "sock64",
     "folder": "Root",
-    "size": 418648,
-    "lastModified": "2026-10-02T17:31:26.739Z"
+    "size": 418712,
+    "lastModified": "2026-10-02T18:19:26.900Z"
   },
   {
     "name": "wanbai.kpm",
@@ -131,7 +131,7 @@ window.REPO_FILES = [
     "path": "auto-rt-ko-drivers/6.6.ko",
     "folder": "auto-rt-ko-drivers",
     "size": 327560,
-    "lastModified": "2026-09-30T14:17:43.939Z"
+    "lastModified": "2026-10-02T18:18:44.173Z"
   },
   {
     "name": "note12pro.ko",
