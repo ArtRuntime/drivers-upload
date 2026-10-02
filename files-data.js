@@ -470,17 +470,17 @@ window.REPO_FILES = [
     "lastModified": "2026-10-01T19:15:57.351Z"
   },
   {
-    "name": "6.6.56.ko",
-    "path": "ZeroLag-GKI/6.6.56.ko",
-    "folder": "ZeroLag-GKI",
-    "size": 337160,
-    "lastModified": "2026-10-02T18:56:54.647Z"
-  },
-  {
     "name": "6.6.ko",
     "path": "ZeroLag-GKI/6.6.ko",
     "folder": "ZeroLag-GKI",
     "size": 337160,
     "lastModified": "2026-10-02T17:50:29.596Z"
+  },
+  {
+    "name": "zl_driver_6.6.56-android15-8-gf7d505beab1f-ab13294489-4k.ko",
+    "path": "ZeroLag-GKI/zl_driver_6.6.56-android15-8-gf7d505beab1f-ab13294489-4k.ko",
+    "folder": "ZeroLag-GKI",
+    "size": 337160,
+    "lastModified": "2026-10-02T18:56:54.647Z"
   }
 ];
