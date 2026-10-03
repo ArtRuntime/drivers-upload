@@ -5,7 +5,7 @@ window.REPO_FILES = [
     "path": "app-release.apk",
     "folder": "Root",
     "size": 11532517,
-    "lastModified": "2026-10-02T22:54:55.852Z"
+    "lastModified": "2026-10-03T09:48:56.202Z"
   },
   {
     "name": "module.zip",
@@ -18,8 +18,8 @@ window.REPO_FILES = [
     "name": "sock64",
     "path": "sock64",
     "folder": "Root",
-    "size": 440096,
-    "lastModified": "2026-10-02T22:33:16.366Z"
+    "size": 501984,
+    "lastModified": "2026-10-03T09:25:23.840Z"
   },
   {
     "name": "wanbai.kpm",
@@ -131,7 +131,7 @@ window.REPO_FILES = [
     "path": "auto-rt-ko-drivers/6.6.ko",
     "folder": "auto-rt-ko-drivers",
     "size": 327560,
-    "lastModified": "2026-10-02T19:22:00.061Z"
+    "lastModified": "2026-10-01T16:39:13.000Z"
   },
   {
     "name": "note12pro.ko",
