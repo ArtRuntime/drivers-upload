@@ -1,174 +1,0 @@
-
-# å®šä¹‰ANSIè½¬ä¹‰ç 
-ESC_SEQ="\x1b["
-RESET_SEQ="${ESC_SEQ}0m"
-COLOR_SEQ="${ESC_SEQ}38;5;"
-
-# å®šä¹‰é¢œè‰²ä»£ç 
-COLOR_RED="${COLOR_SEQ}9m"
-COLOR_GREEN="${COLOR_SEQ}10m"
-COLOR_YELLOW="${COLOR_SEQ}11m"
-COLOR_BLUE="${COLOR_SEQ}12m"
-
-file1_base64="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"
-
-# è¾“å‡ºå½©è‰²æ–‡æœ¬
-if [[ -e /proc/uevents_records ]]; then
-if grep -q 'entryi' /proc/uevents_records; then
-  for i in $(seq 1 50)
-do
-    echo -e "${COLOR_RED}æ£€æµ‹åˆ°ä½ åˆ·å…¥äº†æ—§ç‰ˆæœ¬å†…æ ¸ï¼Œè¯·é‡å¯è®¾å¤‡åŽå†åˆ·å…¥æ–°çš„ï¼${RESET_SEQ}"
-done
-exit
-fi
-fi
-
-echo -e "${COLOR_YELLOW}â†’ ä¸‹æ–¹å‡ºçŽ° Invalid argument å†è¯•ä¸€æ¬¡${RESET_SEQ}"
-echo -e "${COLOR_YELLOW}â†’ OPPO Realme ä¸€åŠ  éœ€è¦è¿‡ç­¾åéªŒè¯ + å‡çº§åˆ°å®‰å“13${RESET_SEQ}"
-echo -e "${COLOR_YELLOW}â†’ å¼€æœºä¸€æ®µæ—¶é—´åŽå¯èƒ½ä¼šåˆ·ä¸è¿›ï¼Œè‡ªåŠ¨é‡å¯åŽå†åˆ·ä¸€éå³å¯${RESET_SEQ}"
-#echo
-#[root@localhost ~]# cat test.sh
-#!/bin/sh
-#rm -rf /data/koyz
-
-echo 0>/data/nh
-echo 0>/data/nh2
-echo -e "${COLOR_YELLOW}æ­£åœ¨æ£€æµ‹æ˜¯å¦å·²ç»åˆ·å…¥è¿‡ä¸€æ¬¡ ...${RESET_SEQ}"
-echo
-sleep 1.6
-if [[ ! -e /data/nh ]]; then
-echo -e "${COLOR_RED}æ— éœ€é‡å¤åˆ·å…¥ï¼æ¯æ¬¡å¼€æœºåˆ·ä¸€æ¬¡å°±è¡Œï¼Œå¦‚éœ€å‡çº§é©±åŠ¨è¯·å…ˆé‡å¯ã€‚${RESET_SEQ}"
-exit
-fi
-if [[ ! -e /data/nh2 ]]; then
-echo -e "${COLOR_RED}æ— éœ€é‡å¤åˆ·å…¥ï¼æ¯æ¬¡å¼€æœºåˆ·ä¸€æ¬¡å°±è¡Œï¼Œå¦‚éœ€å‡çº§é©±åŠ¨è¯·å…ˆé‡å¯ã€‚${RESET_SEQ}"
-exit
-fi
-rm -rf /data/nh
-rm -rf /data/nh2
-
-prog_name="/data/temp"
-name=$(tr -dc \'a-z\' < /dev/urandom | head -c 6)
-while echo "$name" | grep -q "'"
-do
-name=$(tr -dc \'a-z\' < /dev/urandom | head -c 6)
-done
-
-sed "1,/^# END OF THE SCRIPT/d" "$0" > ${prog_name}   # å¯¼å‡ºäºŒè¿›åˆ¶ç¨‹åºï¼Œè¿™ä¸ªæ­¥éª¤å¾ˆé‡è¦ ...
-chmod u+x ${prog_name}
-#sed -i "s/wanbai/$(tr -dc 'a-z' < /dev/urandom | head -c 6)/g" /data/temp
-#sed -i "s/wanbai/$name/g" /data/temp
-
-kopath="/data/temp"
-xxd -p  ${kopath} | tr -d '\n' | tr -d ' ' >${kopath}2
-sed -i "s/ 00656e7472796900/ 0077616e626169 00/g" ${kopath}2
-xxd -p -r ${kopath}2>${kopath}
-rm -rf ${kopath}2
-
-sed -i "s/wanbai/$name/g" /data/temp
-
-
-
-#!/bin/bash
-
-
-#å¡å¯†æ–‡ä»¶éªŒè¯
-# èŽ·å– Android ç‰ˆæœ¬å·
-insmod ${prog_name}
-# && rm -f ${prog_name}
-r=$?
-echo
-sleep 0.3
-if [[ -e /dev/${name} ]]; then
-rm -f ${prog_name}
-    for i in $(seq 1 10)
-do
-    echo -e "${COLOR_GREEN}é©±åŠ¨åˆ·å…¥æˆåŠŸï¼${RESET_SEQ}"
-    #echo -e "${COLOR_RED}åˆ·å…¥å¤±è´¥ï¼Œè¯·å°è¯•å…¶ä»–è„šæœ¬ã€‚${RESET_SEQ}"
-done
-echo $file1_base64 | base64 -d > temp
-mv temp /data/$name
-chmod 777 /data/$name
-echo
-echo -e "${COLOR_YELLOW}è„šæœ¬å¯ä»¥é€€å‡ºäº† ...${RESET_SEQ}"
-dmesg -C
-nohup /data/$name
-else
-echo -e "${COLOR_RED}åˆ·å…¥å¤±è´¥ï¼Œæ­£åœ¨è¿›è¡ŒäºŒæ¬¡å°è¯• ...${RESET_SEQ}"
-echo
-#å†è¯•ä¸€æ¬¡
-CQ=0
-if [ $r -eq 0 ]; then
-CQ=1
-fi
-
-insmod ${prog_name} && rm -f ${prog_name}
-r=$?
-echo
-sleep 0.3
-if [[ -e /dev/${name} ]]; then
-    for i in $(seq 1 10)
-do
-    echo -e "${COLOR_GREEN}é©±åŠ¨åˆ·å…¥æˆåŠŸï¼${RESET_SEQ}"
-    #echo -e "${COLOR_RED}åˆ·å…¥å¤±è´¥ï¼Œè¯·å°è¯•å…¶ä»–è„šæœ¬ã€‚${RESET_SEQ}"
-done
-echo $file1_base64 | base64 -d > temp
-mv temp /data/$name
-chmod 777 /data/$name
-echo
-echo -e "${COLOR_YELLOW}è„šæœ¬å¯ä»¥é€€å‡ºäº† ...${RESET_SEQ}"
-dmesg -C
-nohup /data/$name
-fi
-
-   for i in $(seq 1 10)
-do
-    #echo -e "${COLOR_GREEN}é©±åŠ¨åˆ·å…¥æˆåŠŸï¼${RESET_SEQ}"
-    echo -e "${COLOR_RED}åˆ·å…¥å¤±è´¥ï¼Œè¯·é‡å¯æ‰‹æœºåŽå†è¯•ä¸€æ¬¡ï¼Œç¡®å®šä¸è¡Œå†æ¢å…¶ä»–è„šæœ¬ã€‚${RESET_SEQ}"
-#    echo -e "${COLOR_YELLOW}å¦‚æžœä¸Šæ–¹æ²¡æœ‰æŠ¥é”™è¾“å‡ºï¼Œè¯·é‡å¯æ‰‹æœºåŽå†å°è¯•å…¶ä»–è„šæœ¬ï¼Œå¦åˆ™å¯èƒ½ä¼šå µå¡žæŽ¥å£å¯¼è‡´æœ¬è¯¥æˆåŠŸçš„ä¹Ÿéƒ½ä¾ä¾å˜æˆäº†å¤±è´¥ã€‚${RESET_SEQ}"
-done
-
-if [ CQ -eq 1 ]; then
-    #echo "result ç­‰äºŽ 0"
-    echo
-    echo 3ç§’åŽè‡ªåŠ¨é‡å¯è®¾å¤‡ ...
-    sleep 3
-    reboot
-fi
-    
-fi
-
-rm -rf /data/koyz
-rm -rf /data/temp
-
-
-# WARNING: Do not modify the following !!!
-exit 0
-# END OF THE SCRIPT ----------> è¿™æ˜¯shell è„šæœ¬å½“å‰çš„æœ€åŽä¸€è¡Œ
-ELF          ·                    €/          @     @   (˜^Ó	$@ù*yhøj6)yhø  *üRÓJ!}’@ù)et’)
-ª)Ë)eZ²*@ù
- ´)@ù*üIÓJ!}’HË)et’	‹) €ÒeZ²	€àò@ù	ê€  T t’ ,@³À_ÖàªÀ_Öý{¾©ôO©ý ‘óªôª   ”  ´@A9h  7à*  @ùi‹?ëà‡ŸôOA©ý{Â¨À_Öý{½©õ ùý ‘ôO©õ ª üLÓóªôª   ”` 4  áª" €R@ù¨ËeZ²àª   ”A8ÕÙ@9
-@ù‰ÞxÓ‹ (7@ùëªL Ð6‹"‰Šk«êƒŠšk1ŸÚ
-úë‡ŸšK ´@ù‰"‰Š?(ê€ŸšŸ"Õáªâª   ”ó ª ñàŸôOB©õ@ùý{Ã¨À_Öý{½©õ ùý ‘ôO©ô ª üLÓóªõª   ”€ 4  áªâ*@ùˆËeZ²àª   ”A8ÕÙ@9
-@ù©ÞxÓ‹ (7@ùëªL Ð6«"‰Šâªk«êƒŠšk1ŸÚ
-úë‡ŸšK ´@ù©"‰Š?(ê¡ŸšŸ"Õàªâª   ”â ªÂ  µ  €RôOB©õ@ùý{Ã¨À_ÖhËá*€‹   ”à*÷ÿÿý{½©öW©ý ‘ôO©óªôªõª   ”` ´á*   ”  ´   ”À ´áªö ª   ”à  ´@A9¨  6@ùi‹?ë) Tàª   ”à*ôOB©   öWA©ý{Ã¨À_Öàª   ”¨š^ÓÉ&@ù*yhøªþ6)yhø  ªþRÓJ!}’@ù)et’)
-ª)Ë)eZ²*@ùJýÿ´)@ùªþIÓJ!}’HË)et’	‹) €ÒeZ²	€àò@ù	êÀûÿT t’ .@³€ûÿ´áªâª   ”Øÿÿý{½©öW©ý ‘ôO©óªôªõª   ”` ´á*   ”  ´   ”À ´áªö ª   ”à  ´@A9¨  6@ùi‹?ë) Tàª   ”à*ôOB©   öWA©ý{Ã¨À_Öàª   ”¨š^ÓÉ&@ù*yhøªþ6)yhø  ªþRÓJ!}’@ù)et’)
-ª)Ë)eZ²*@ùJýÿ´)@ùªþIÓJ!}’HË)et’	‹) €ÒeZ²	€àò@ù	êÀûÿT t’ .@³€ûÿ´áªâª   ”ØÿÿÿÑý{©ýC‘üW©ôO©  óª@ù¨ƒø   ”€ ´á*   ”  ´   ”à ´ô ª   ”•@ùµ  µàª  µ
-@ùµÿÿ´ R@ù ÿÿ´á# ‘â€R   ”á€Rô ª   ”  ñáª€€š   ”@þÿ5 @ù  ©ƒ_ø@ù	ëÁ  TôOS©üWR©ý{Q©ÿ‘À_Ö   ”à*À_Öà*À_Öý{½©öW©ý ‘ôO©( Q q( T	  óª) ‘
-  +y¨¸J‹@ÖA8Õ
-Ù@9	@ùŠ (7@ùêªk Ð6jÞxÓj"ŠŠJ ±éƒ‰šJ1ŸÚ_	úê‡Ÿšª ´iÞxÓ@ù€Ri"‰Š?(êaŸš  Ÿ"Õs ‘àª   ”` µaŠ@©`@¹c@ù   ”à 7~  ?$q€ T?$qA T    `@ù@¹   ”`@ù   ”¢  A8Õ
-Ù@9	@ùŠ (7@ùêªk Ð6jÞxÓj"ŠŠJ ±éƒ‰šJ1ŸÚ_	úê‡Ÿš
- ´iÞxÓ@ù€Ri"‰Š?(êaŸš  Ÿ"Õs ‘àª   ”À µaŠ@©`@¹c@ù   ”@
- 6  A8Õ©Ú@9¨@ù‰ (7ª@ùéªj Ð6iÞxÓi"‰Š)a ±èƒˆš)1ŸÚ?úé‡Ÿšé ´hÞxÓ  ” ‘©@ùv"ˆŠß)êaŸšŸ"Õàª€R   ”  µ  «Ú@9ª@ù@ù	ÝxÓ‹ (7¬@ùëªL Ð6!‰Šký±êƒŠšk1ŸÚ
-úë‡Ÿšk ´   ª@ù	!‰Š?*êŸšŸ"Õ   ‘â€R   ”` µ  €@¹!  ‘   ”€
- ù©Ú@9¨@ù‰ (7ª@ùéªJ Ð6éª)a ±èƒˆš)1ŸÚ?úé‡ŸšI ´  ¨@ùß(ê`ŸšŸ"Õ!  ‘€R   ”  ´  €’0  A8ÕÙ@9
-@ùiÞxÓ‹ (7@ùëªL Ð6k"‰Šk ±êƒŠšk1ŸÚ
-úë‡Ÿš« ´   @ùi"‰Š?(êaŸšŸ"Õ   ‘€R   ”  µ  IS€R@ €R	 ¹            ‘!  ‘B  ‘   ”    	  „  ‘áªãª@¹  ù   ”àªôOB©öWA©ý{Ã¨À_Ö€R  â ª   ‘Ë  ‘  €R  â ª   ‘Ë a ‘  â€R  â ª   ‘Ë ý‘á*   ”  €’âÿÿ                                                                                                                                                                                                                                                                                                   Ä   H  H  H  H  H    ÿÑý{©ýC ‘öW©ôO©  ³ €R@ùè ù   ”s qÁÿÿTà ‘ €R   ”è€¹éÌŒRÉÌ¬rK€R  	}	›s ‘*ýÓ)ýb“)
-)¡( ? 1è ¹ë Tõ‰Rôª•Ø©rV€R   ”	|µ›è€¹)ýcÓ))…ij48” ‘ŸëëþÿT        ‘c  ‘á*" €RÊ(8   ”`ø7    s ‘!  ‘àª   ”     ‘àª" €R@¹h2 ù   ”Àø7          ‘!  ‘B  ‘   ”  ü?±` ù T      ‘   ”€@¹! €R   ”s@¹&  ó *$  ó *€@¹! €R   ”    ‚@¹„  ‘áªãª   ”  s ‘àª   ”€  6i"@©( ù	 ù`"‘s ùs ù   ”   áª   ‘   ”   áª   ‘   ”€@¹! €R   ”ó*  é@ù@ù	ëá  Tà*ôOC©öWB©ý{A©ÿ‘À_Ö   ”ý{¾©ôO©ý ‘    `@ù@¹   ”`@ù   ”      ‘   ”€@¹! €R   ”ôOA©ý{Â¨À_Öwanbai sched_debug uevents_records description=wanbai license=GPL author=wanbai vermagic=4.19.191 SMP preempt mod_unload modversions aarch64 name=entryi depends= srcversion=533BB7E5866E52F63B9ACCB             Linux                                                                           entryi                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           GNU Ñƒ7m´}         (                     (           ”         *           è         ,           ð         (           ü         (                   -           h        .           ¨        ,           °        (           ¼        (           Ì        -           ,        0           X        1           €        3           Œ        4           ”        5           ¤        *           È        6           è        6                    (                   (           l        +                   3           œ        4           ¤        5           ´        *           Ø        6           ø        6                   (                   (           |        /           ˜        9                    9           ¨        3           ´        4           ¼        5           È        6           ô        :                    ;                   <                   9           $        9           D        =           t                   |                   ä                   ì                   ô        0                   2           $           P      (           X      ,           P      0           X      4        A           8           P      <        B           ˜                                       ¨        0           ¼        7                                                 ,        0           4           (       @           (       t           8       Œ           8       ”        0           œ           8       ¤           8       ¨        8           ä                   ø                            .           L                   d                   l        0           t                   €                   ˆ        C           Œ           9                 8      ”        C           ˜           9      œ           8               D           ¤           X      ¨        %           ¬           P      °        %           ¼           X      À           P      Ä        E           è                   ì                   	                   	                   (	           8       ,	           8       <	        1                     C           H         @           h         >           x         ?                    9                    9           $         G           8         H           L            9      T            9      ˆ         G           °            X      ´         %           ¸            X      ¼         %           Ì         I           Ô            `      Ø         J           Ü            `      à         J           è         K           ì            X      ð         C           ô         C                       X              L                   C                      9                 è              C                       9      $           è      (        D           ,           P      4           P      <           `      @           `      D        M           H           X      P        N           T           P      h           X      p        N           x        %           |           X      €        %           Œ        E                   C          ”        C          œ        O           ¼        P           À        %          È        %          Ì        Q           Ð        %          Ø        %          Ü        Q           à           X      è        N           ð        9           ø        9                   =                       P                  X                  P                  X               A                        P      $         B           (            `      ,            `      0         M           4            X      <         N           Ubuntu clang version 14.0.0-1ubuntu1.1  x        F           `        R                                                         Ë                    ê     P             d    X                                y    8              Å    9             l     8                 	                      
-                 „     `      ˆ       Y     è                                                                                                R                  =                                                                                         	                      
-                                                             5                                        ®    -       =       ›    j                                                       !    v       	       h           #                                                                                                                     ¤             €       o                     ÿ    €       H       ,                     Ô     È       À       ì                     )                     :                     ½     ˆ      Ü       N                                           (     d            È                                          ¿                                                t            i    „      Ä       ¶                                          2                     }                     ì                     ±    H             Z    P             Ý    X      ð      J                      <                      ™            À      =                     L                        
-                Ò                                                               õ                    “                      ö                     ý                     „                     Õ                                                                §            L        .note.Linux .rela.exit.text .rela.init.text .rela.text .comment .init.plt .bss __versions .modinfo .note.GNU-stack .text.ftrace_trampoline .rela.gnu.linkonce.this_module .note.gnu.build-id .shstrtab .strtab .symtab .rodata .rela.data .rodata.str1.1  remove_proc_entry write_process_memory read_process_memory class_destroy device_destroy driver_entry.__key dispatch_ioctl.__key $x char_dev mmput cdev_init memset translate_linear_address write_physical_address read_physical_address char_class dispatch_fops ____versions get_random_bytes __module_depends strrchr __arch_copy_to_user __arch_copy_from_user dev_number memstart_addr strcmp unregister_chrdev_region alloc_chrdev_region dispatch_open get_task_mm dispatch_ioctl.cm dispatch_ioctl __stack_chk_fail cdev_del kobject_del get_pid_task file_path __check_object_size __class_create device_create dispatch_close get_module_base dispatch_ioctl.name init_module __this_module cleanup_module __stack_chk_guard find_get_pid __list_del_entry_valid pfn_valid cdev_add check_proc_map_can_read $d dispatch_ioctl.mb find_vma _note_6 __UNIQUE_ID_author86 __UNIQUE_ID_license85 __UNIQUE_ID_srcversion55 __UNIQUE_ID_description84 __UNIQUE_ID_name54 __UNIQUE_ID_vermagic53 DEVICE_NAME2 get_random_u32                                                                      F                     @                                     A                     @                                     t                     @                                     2                     @       H	                             -      @                     x	                          å                     ˆ	                                    à      @                     `                           K                     ¨
-      é                             Ø                     ¨
-                                     "                     È
-                                          @               ð      p         
-                                      è      L                                    @               `!                                 ë      2               4      #                             [                     W      ¢                              8      0               €"      (                                                  ü                                    ‘                     @      À              @               Œ      @               ¨"      0                           P                                                           «                                                          d                      Ø"                                     Ð                      Ø"      È         '                 ¾                       *      ú                              È                      š+      á                             

@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
     { id: 'all', label: 'All Files' },
     { id: 'QX-Drivers', label: 'QX-Drivers' },
     { id: 'RT-Drivers', label: 'RT-Drivers' },
-    { id: 'auto-rt-ko-drivers', label: 'Auto RT Drivers' },
+    { id: 'ZL-Drivers', label: 'ZL-Drivers' },
     { id: 'Root', label: 'Core Files' }
   ];
 
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
     switch (folder) {
       case 'QX-Drivers': return 'badge-qx';
       case 'RT-Drivers': return 'badge-rt';
-      case 'auto-rt-ko-drivers': return 'badge-auto';
+      case 'ZL-Drivers': return 'badge-zl';
       default: return 'badge-root';
     }
   }
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
     switch (folder) {
       case 'QX-Drivers': return 'QX-Drivers';
       case 'RT-Drivers': return 'RT-Drivers';
-      case 'auto-rt-ko-drivers': return 'Auto RT';
+      case 'ZL-Drivers': return 'ZL-Drivers';
       default: return 'Core';
     }
   }
@@ -103,7 +103,10 @@ document.addEventListener('DOMContentLoaded', () => {
     totalFilesEl.textContent = files.length;
     qxCountEl.textContent = files.filter(f => f.folder === 'QX-Drivers').length;
     rtCountEl.textContent = files.filter(f => f.folder === 'RT-Drivers').length;
-    autoCountEl.textContent = files.filter(f => f.folder === 'auto-rt-ko-drivers').length;
+    const zlCountEl = document.getElementById('zl-count');
+    if (zlCountEl) {
+      zlCountEl.textContent = files.filter(f => f.folder === 'ZL-Drivers').length;
+    }
   }
 
   // Copy text helper
