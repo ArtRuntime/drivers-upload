@@ -4,8 +4,8 @@ window.REPO_FILES = [
     "name": "app-release.apk",
     "path": "app-release.apk",
     "folder": "Root",
-    "size": 11577153,
-    "lastModified": "2026-10-04T21:17:58.045Z"
+    "size": 11577297,
+    "lastModified": "2026-10-05T18:55:13.418Z"
   },
   {
     "name": "module.zip",
@@ -18,8 +18,8 @@ window.REPO_FILES = [
     "name": "sock64",
     "path": "sock64",
     "folder": "Root",
-    "size": 525432,
-    "lastModified": "2026-10-05T10:58:17.004Z"
+    "size": 525808,
+    "lastModified": "2026-10-05T18:53:45.408Z"
   },
   {
     "name": "wanbai.kpm",
@@ -127,11 +127,25 @@ window.REPO_FILES = [
     "lastModified": "2026-10-04T19:40:25.533Z"
   },
   {
+    "name": "5.10-Pixel.ko",
+    "path": "QX-Drivers/5.10-Pixel.ko",
+    "folder": "QX-Drivers",
+    "size": 343336,
+    "lastModified": "2026-10-05T18:13:12.729Z"
+  },
+  {
     "name": "5.10.ko",
     "path": "QX-Drivers/5.10.ko",
     "folder": "QX-Drivers",
     "size": 1036200,
     "lastModified": "2026-10-04T19:40:25.535Z"
+  },
+  {
+    "name": "5.10b.ko",
+    "path": "QX-Drivers/5.10b.ko",
+    "folder": "QX-Drivers",
+    "size": 343232,
+    "lastModified": "2026-10-05T18:13:12.731Z"
   },
   {
     "name": "5.15.ko",
