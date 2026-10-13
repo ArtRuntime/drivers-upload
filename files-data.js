@@ -323,6 +323,13 @@ window.REPO_FILES = [
     "lastModified": "2026-10-01T19:15:57.333Z"
   },
   {
+    "name": "4.14.190-perf-g9365b7d6fb08.ko",
+    "path": "ZL-Drivers/4.14.190-perf-g9365b7d6fb08.ko",
+    "folder": "ZL-Drivers",
+    "size": 379216,
+    "lastModified": "2026-10-13T15:07:40.537Z"
+  },
+  {
     "name": "4.19.113.ko",
     "path": "ZL-Drivers/4.19.113.ko",
     "folder": "ZL-Drivers",
