@@ -393,18 +393,11 @@ window.REPO_FILES = [
     "lastModified": "2026-10-17T20:16:15.786Z"
   },
   {
-    "name": "5.10.168.ko",
-    "path": "ZL-Drivers/5.10.168.ko",
-    "folder": "ZL-Drivers",
-    "size": 663320,
-    "lastModified": "2026-10-17T20:16:03.769Z"
-  },
-  {
     "name": "5.10.ko",
     "path": "ZL-Drivers/5.10.ko",
     "folder": "ZL-Drivers",
     "size": 663320,
-    "lastModified": "2026-10-17T20:16:26.908Z"
+    "lastModified": "2026-10-17T20:16:03.769Z"
   },
   {
     "name": "5.15.ko",
