@@ -354,8 +354,8 @@ window.REPO_FILES = [
     "name": "4.19.113.ko",
     "path": "ZL-Drivers/4.19.113.ko",
     "folder": "ZL-Drivers",
-    "size": 445352,
-    "lastModified": "2026-10-17T20:15:38.196Z"
+    "size": 424000,
+    "lastModified": "2026-10-02T06:25:38.959Z"
   },
   {
     "name": "4.19.157.ko",
@@ -396,15 +396,15 @@ window.REPO_FILES = [
     "name": "5.10.ko",
     "path": "ZL-Drivers/5.10.ko",
     "folder": "ZL-Drivers",
-    "size": 663320,
-    "lastModified": "2026-10-17T20:16:03.769Z"
+    "size": 571088,
+    "lastModified": "2026-10-18T17:56:26.977Z"
   },
   {
     "name": "5.15.ko",
     "path": "ZL-Drivers/5.15.ko",
     "folder": "ZL-Drivers",
-    "size": 575560,
-    "lastModified": "2026-10-17T20:16:35.380Z"
+    "size": 573160,
+    "lastModified": "2026-10-02T06:25:38.967Z"
   },
   {
     "name": "5.4.236.ko",
@@ -424,21 +424,21 @@ window.REPO_FILES = [
     "name": "6.1.ko",
     "path": "ZL-Drivers/6.1.ko",
     "folder": "ZL-Drivers",
-    "size": 521472,
-    "lastModified": "2026-10-17T20:16:44.968Z"
+    "size": 519576,
+    "lastModified": "2026-10-02T06:25:38.976Z"
   },
   {
     "name": "6.12.ko",
     "path": "ZL-Drivers/6.12.ko",
     "folder": "ZL-Drivers",
-    "size": 369736,
-    "lastModified": "2026-10-17T20:16:52.308Z"
+    "size": 368392,
+    "lastModified": "2026-10-02T06:25:38.977Z"
   },
   {
     "name": "6.6.ko",
     "path": "ZL-Drivers/6.6.ko",
     "folder": "ZL-Drivers",
-    "size": 339448,
-    "lastModified": "2026-10-17T20:16:49.909Z"
+    "size": 338528,
+    "lastModified": "2026-10-02T06:25:38.979Z"
   }
 ];
