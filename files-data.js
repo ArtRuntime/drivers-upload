@@ -4,8 +4,8 @@ window.REPO_FILES = [
     "name": "app-release.apk",
     "path": "app-release.apk",
     "folder": "Root",
-    "size": 11228257,
-    "lastModified": "2026-10-21T14:14:55.437Z"
+    "size": 12827714,
+    "lastModified": "2026-10-21T20:36:39.102Z"
   },
   {
     "name": "module.zip",
@@ -18,8 +18,8 @@ window.REPO_FILES = [
     "name": "sock64",
     "path": "sock64",
     "folder": "Root",
-    "size": 609824,
-    "lastModified": "2026-10-21T14:05:23.293Z"
+    "size": 611800,
+    "lastModified": "2026-10-21T20:32:21.592Z"
   },
   {
     "name": "wanbai.kpm",
@@ -342,6 +342,13 @@ window.REPO_FILES = [
     "folder": "ZL-Drivers",
     "size": 335856,
     "lastModified": "2026-10-17T20:15:30.618Z"
+  },
+  {
+    "name": "4.14.357-Aqua.ko",
+    "path": "ZL-Drivers/4.14.357-Aqua.ko",
+    "folder": "ZL-Drivers",
+    "size": 21104,
+    "lastModified": "2026-10-21T16:30:49.280Z"
   },
   {
     "name": "4.19.113.ko",
