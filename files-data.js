@@ -18,8 +18,8 @@ window.REPO_FILES = [
     "name": "sock64",
     "path": "sock64",
     "folder": "Root",
-    "size": 610296,
-    "lastModified": "2026-10-26T13:52:20.832Z"
+    "size": 608008,
+    "lastModified": "2026-10-29T08:26:26.631Z"
   },
   {
     "name": "wanbai.kpm",
